@@ -2,6 +2,6 @@
 
 ### Linked_List
 
-+ [binary2decimal]()
++ [binary2decimal](https://github.com/justforfunmy/Data-Structure-LeetCode/blob/master/linked_list/binary2decimal.md)
 
-+ [getKthFromEnd]()
++ [getKthFromEnd](https://github.com/justforfunmy/Data-Structure-LeetCode/blob/master/linked_list/getKthFromEnd.md)

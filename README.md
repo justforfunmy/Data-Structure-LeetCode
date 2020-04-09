@@ -9,3 +9,9 @@
 + [反转链表](https://github.com/justforfunmy/Data-Structure-LeetCode/blob/master/linked_list/reverseList.md)
 
 + [合并有序链表](https://github.com/justforfunmy/Data-Structure-LeetCode/blob/master/linked_list/mergeTwoLists.md)
+
++ [删除节点](https://github.com/justforfunmy/Data-Structure-LeetCode/blob/master/linked_list/deleteNode.md)
+
++ [回文链表](https://github.com/justforfunmy/Data-Structure-LeetCode/blob/master/linked_list/isPalindrome.md)
+
++ [环形链表](https://github.com/justforfunmy/Data-Structure-LeetCode/blob/master/linked_list/hasCycle.md)

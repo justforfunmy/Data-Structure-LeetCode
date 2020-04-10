@@ -10,3 +10,6 @@
 #### 0410
 + [链表求和](https://leetcode-cn.com/problems/sum-lists-lcci/)
 + [奇偶链表](https://leetcode-cn.com/problems/odd-even-linked-list/)
+
+#### 0410
++ [旋转链表](https://leetcode-cn.com/problems/rotate-list/)

@@ -19,3 +19,5 @@
 + [链表求和](https://github.com/justforfunmy/Data-Structure-LeetCode/blob/master/linked_list/addTwoNumbers.md)
 
 + [奇偶链表](https://github.com/justforfunmy/Data-Structure-LeetCode/blob/master/linked_list/oddEvenList.md)
+
++ [链表小结](https://github.com/justforfunmy/Data-Structure-LeetCode/blob/master/linked_list/summary.md)

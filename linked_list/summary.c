@@ -114,6 +114,54 @@ struct ListNode *reverseList2(struct ListNode *head)
     return temp;
 }
 
+//合并有序链表
+struct ListNode *mergeList(struct ListNode * l1,struct ListNode* l2)
+{
+    struct ListNode* l3 = (struct ListNode *)malloc(sizeof(struct ListNode));
+    struct ListNode* dumpy = l3;
+    while(l1 && l2)
+    {
+        if(l1->val<l2->val)
+        {
+            l3->next=l1;
+            l1=l1->next;
+        }
+        else
+        {
+            l3->next=l2;
+            l2=l2->next;
+        }
+        l3=l3->next;
+    }
+    l3->next=l1==NULL?l2:l1;
+    return dumpy->next;
+}
+
+struct ListNode* mergeList2(struct ListNode* l1,struct ListNode* l2)
+{
+    if(l1==NULL)
+    {
+        return l2;
+    }
+    if(l2==NULL)
+    {
+        return l1;
+    }
+    struct ListNode *node =  (struct ListNode *)malloc(sizeof(struct ListNode));
+    if(l1->val<l2->val)
+    {
+        node->val=l1->val;
+        node->next=mergeList2(l1->next,l2);
+    }
+    else
+    {
+        node->val=l2->val;
+        node->next=mergeList2(l1,l2->next);
+    }
+    return node;
+    
+}
+
 void main()
 {
     struct ListNode *dumpy = (struct ListNode *)malloc(sizeof(struct ListNode));
@@ -133,7 +181,25 @@ void main()
     // struct ListNode *reverse = reverseList(dumpy);
     // printf("after reverse :\n");
     // printList(reverse);
-    struct ListNode *reverse2 = reverseList2(dumpy);
-    printf("after reverse :\n");
-    printList(reverse2);
+    // struct ListNode *reverse2 = reverseList2(dumpy);
+    // printf("after reverse :\n");
+    // printList(reverse2);
+    printf("add two numbers:\n");
+    struct ListNode *l1= (struct ListNode *)malloc(sizeof(struct ListNode));
+    l1->val=1;
+    l1->next=NULL;
+    insertNode(3,find(1,l1));
+    insertNode(5,find(3,l1));
+    printf("list l1:\n");
+    printList(l1);
+
+    struct ListNode *l2= (struct ListNode *)malloc(sizeof(struct ListNode));
+    l2->val=2;
+    l2->next=NULL;
+    insertNode(3,find(2,l2));
+    printf("list l2:\n");
+    printList(l2);
+
+    printf("after merged:\n");
+    printList(mergeList2(l1,l2));
 }

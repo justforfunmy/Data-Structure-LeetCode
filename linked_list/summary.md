@@ -164,6 +164,67 @@ struct ListNode *reverseList2(struct ListNode *head)
 
 输入两个递增排序的链表，合并这两个链表并使新链表中的节点仍然是递增排序的。
 
+1. 迭代法
+
+定义一个新链表，一次比较两个链表的值，取小的值加到新链表上，直到一个链表遍历完毕，将另一个链表的剩余部分加到新链表上。
+
+````C
+//合并有序链表
+struct ListNode *mergeList(struct ListNode * l1,struct ListNode* l2)
+{
+    struct ListNode* l3 = (struct ListNode *)malloc(sizeof(struct ListNode));
+    struct ListNode* dumpy = l3;
+    while(l1 && l2)
+    {
+        if(l1->val<l2->val)
+        {
+            l3->next=l1;
+            l1=l1->next;
+        }
+        else
+        {
+            l3->next=l2;
+            l2=l2->next;
+        }
+        l3=l3->next;
+    }
+    l3->next=l1==NULL?l2:l1;
+    return dumpy->next;
+}
+````
+
+2. 递归
+
+递归函数的作用是创建一个节点，依次比较两个链表值，取小的值作为新节点的值，`next`指向的值也是通过比较所得。
+
+````C
+struct ListNode* mergeList2(struct ListNode* l1,struct ListNode* l2)
+{
+    if(l1==NULL)
+    {
+        return l2;
+    }
+    if(l2==NULL)
+    {
+        return l1;
+    }
+    struct ListNode *node =  (struct ListNode *)malloc(sizeof(struct ListNode));
+    if(l1->val<l2->val)
+    {
+        node->val=l1->val;
+        node->next=mergeList2(l1->next,l2);
+    }
+    else
+    {
+        node->val=l2->val;
+        node->next=mergeList2(l1,l2->next);
+    }
+    return node;
+}
+````
+
+迭代法和递归法是处理链表问题的常见方法，迭代相对更好理解。
+更多习题，详见我的[github](https://github.com/justforfunmy/Data-Structure-LeetCode)
 
 
 

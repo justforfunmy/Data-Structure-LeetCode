@@ -16,8 +16,8 @@
 
 #### 0413
 + [二叉树深度](https://leetcode-cn.com/problems/er-cha-shu-de-shen-du-lcof/)
-+ [二叉树镜像](https://leetcode-cn.com/problems/er-cha-shu-de-jing-xiang-lcof/submissions/)
-+ [合并二叉树](https://leetcode-cn.com/problems/merge-two-binary-trees/submissions/)
++ [二叉树镜像](https://leetcode-cn.com/problems/er-cha-shu-de-jing-xiang-lcof/)
++ [合并二叉树](https://leetcode-cn.com/problems/merge-two-binary-trees/)
 + [单值二叉树](https://leetcode-cn.com/problems/univalued-binary-tree/)
 
 #### 0414

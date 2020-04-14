@@ -21,3 +21,11 @@
 + [奇偶链表](https://github.com/justforfunmy/Data-Structure-LeetCode/blob/master/linked_list/oddEvenList.md)
 
 + [链表小结](https://github.com/justforfunmy/Data-Structure-LeetCode/blob/master/linked_list/summary.md)
+
+### binary_tree
+
++ [二叉树深度](https://github.com/justforfunmy/Data-Structure-LeetCode/blob/master/tree/maxDepth.md)
+
++ [二叉树镜像](https://github.com/justforfunmy/Data-Structure-LeetCode/blob/master/tree/mirrorTree.md)
+
++ [二叉树合并](https://github.com/justforfunmy/Data-Structure-LeetCode/blob/master/tree/mergeTrees.md)

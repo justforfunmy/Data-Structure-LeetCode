@@ -19,3 +19,8 @@
 + [二叉树镜像](https://leetcode-cn.com/problems/er-cha-shu-de-jing-xiang-lcof/submissions/)
 + [合并二叉树](https://leetcode-cn.com/problems/merge-two-binary-trees/submissions/)
 + [单值二叉树](https://leetcode-cn.com/problems/univalued-binary-tree/)
+
+#### 0414
++ [最大二叉树](https://leetcode-cn.com/problems/maximum-binary-tree/)
++ [平衡二叉树](https://leetcode-cn.com/problems/ping-heng-er-cha-shu-lcof/)
++ [二叉树剪枝](https://leetcode-cn.com/problems/binary-tree-pruning/)后续遍历

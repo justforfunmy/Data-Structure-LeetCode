@@ -84,7 +84,7 @@ SearchTree insertNode(int x, SearchTree root)
         node->val = x;
         node->left = NULL;
         node->right = NULL;
-        *root = *node;
+        return node;
     }
     else
     {
@@ -100,44 +100,112 @@ SearchTree insertNode(int x, SearchTree root)
     return root;
 }
 
-SearchTree deleteNode(int x,SearchTree root)
+SearchTree deleteNode(int x, SearchTree root)
 {
     Position temp;
-    if(x<root->val)
+    if (x < root->val)
     {
-        root->left=deleteNode(x,root->left);
+        root->left = deleteNode(x, root->left);
     }
-    else if(x>root->val)
+    else if (x > root->val)
     {
-        root->right=deleteNode(x,root->right);
+        root->right = deleteNode(x, root->right);
     }
     else
     {
-        if(root->left&&root->right)
+        if (root->left && root->right)
         {
-            temp=FindMin(root->right);
-            root->val=temp->val;
-            root->right=deleteNode(root->val,root->right);
+            temp = FindMin(root->right);
+            root->val = temp->val;
+            root->right = deleteNode(root->val, root->right);
         }
         else
         {
-            temp=root;
-            if(root->left==NULL)
+            temp = root;
+            if (root->left == NULL)
             {
-                root=root->right;
+                root = root->right;
             }
-            else if(root->right==NULL)
+            else if (root->right == NULL)
             {
-                root=root->left;
+                root = root->left;
             }
             free(temp);
         }
+    }
+}
+
+//前序遍历
+void preOrder(SearchTree root)
+{
+    if (root)
+    {
+        printf("val:%d \n", root->val);
+        if (root->left)
+        {
+            preOrder(root->left);
+        }
+        if (root->right)
+        {
+            preOrder(root->right);
+        }
+    }
+}
+
+//中序遍历
+void inOrder(SearchTree root)
+{
+    if (root)
+    {
+        if (root->left)
+        {
+            inOrder(root->left);
+        }
+        printf("val:%d \n", root->val);
+        if (root->right)
+        {
+            inOrder(root->right);
+        }
         
     }
-    
-    
+}
+
+//后续遍历
+void postOrder(SearchTree root)
+{
+    if (root)
+    {
+        
+        if (root->left)
+        {
+            postOrder(root->left);
+        }
+        if (root->right)
+        {
+            postOrder(root->right);
+        }
+        printf("val:%d \n", root->val);
+    }
 }
 
 void main()
 {
+    SearchTree tree = (struct TreeNode *)malloc(sizeof(struct TreeNode));
+    tree->val=10;
+    tree->left=NULL;
+    tree->right=NULL;
+    insertNode(3,tree);
+    insertNode(15,tree);
+    insertNode(5,tree);
+    insertNode(2,tree);
+    insertNode(11,tree);
+    insertNode(18,tree);
+    insertNode(1,tree);
+    printf("preorder:\n");
+    preOrder(tree);
+    printf("inorder:\n");
+    inOrder(tree);
+    printf("postorder:\n");
+    postOrder(tree);
+    
 }

@@ -29,3 +29,9 @@
 + [二叉树镜像](https://github.com/justforfunmy/Data-Structure-LeetCode/blob/master/tree/mirrorTree.md)
 
 + [二叉树合并](https://github.com/justforfunmy/Data-Structure-LeetCode/blob/master/tree/mergeTrees.md)
+
++ [最大二叉树](https://github.com/justforfunmy/Data-Structure-LeetCode/blob/master/tree/constructMaximumBinaryTree.md)
+
++ [平衡二叉树](https://github.com/justforfunmy/Data-Structure-LeetCode/blob/master/tree/isBalanced.md)
+
++ [二叉树剪枝](https://github.com/justforfunmy/Data-Structure-LeetCode/blob/master/tree/pruneTree.md)

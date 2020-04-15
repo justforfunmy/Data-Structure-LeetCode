@@ -24,3 +24,6 @@
 + [最大二叉树](https://leetcode-cn.com/problems/maximum-binary-tree/)
 + [平衡二叉树](https://leetcode-cn.com/problems/ping-heng-er-cha-shu-lcof/)
 + [二叉树剪枝](https://leetcode-cn.com/problems/binary-tree-pruning/)后续遍历
+
+#### 0415
++ [合法二叉搜索树](https://leetcode-cn.com/problems/legal-binary-search-tree-lcci/)

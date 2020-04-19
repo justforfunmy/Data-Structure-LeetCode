@@ -37,3 +37,5 @@
 + [二叉树剪枝](https://github.com/justforfunmy/Data-Structure-LeetCode/blob/master/tree/pruneTree.md)
 
 + [合法二叉搜索树](https://github.com/justforfunmy/Data-Structure-LeetCode/blob/master/tree/isValidBST.md)
+
++ [二叉树小结](https://github.com/justforfunmy/Data-Structure-LeetCode/blob/master/tree/summary.md)

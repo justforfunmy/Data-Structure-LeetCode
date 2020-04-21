@@ -39,3 +39,11 @@
 + [合法二叉搜索树](https://github.com/justforfunmy/Data-Structure-LeetCode/blob/master/tree/isValidBST.md)
 
 + [二叉树小结](https://github.com/justforfunmy/Data-Structure-LeetCode/blob/master/tree/summary.md)
+
+### sort
+
++ [在排序数组中查找数字](https://github.com/justforfunmy/Data-Structure-LeetCode/blob/master/sort/search.md)
+
++ [合并有序数组](https://github.com/justforfunmy/Data-Structure-LeetCode/blob/master/sort/merge.md)
+
++ [奇偶排序](https://github.com/justforfunmy/Data-Structure-LeetCode/blob/master/sort/sortArrayByParity.md)

@@ -47,3 +47,7 @@
 + [合并有序数组](https://github.com/justforfunmy/Data-Structure-LeetCode/blob/master/sort/merge.md)
 
 + [奇偶排序](https://github.com/justforfunmy/Data-Structure-LeetCode/blob/master/sort/sortArrayByParity.md)
+
++ [删除排序数组中的重复项](https://github.com/justforfunmy/Data-Structure-LeetCode/blob/master/sort/removeDuplicates.md)
+
++ [排序字符串](https://github.com/justforfunmy/Data-Structure-LeetCode/blob/master/sort/sortString.md)

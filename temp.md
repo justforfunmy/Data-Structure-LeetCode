@@ -37,3 +37,24 @@
 + 插入排序
 + 归并排序
 + 快速排序
+
+
+#### 0424
+
++ [删除排序数组中的重复项](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array-ii)
+
+------------------------------
+
++ [删除链表的节点](https://leetcode-cn.com/problems/delete-node-in-a-linked-list/)
+
++ [替换空格](https://leetcode-cn.com/problems/ti-huan-kong-ge-lcof/)
+
++ [从尾到头打印链表](https://leetcode-cn.com/problems/cong-wei-dao-tou-da-yin-lian-biao-lcof/)
+
++ [二叉搜索树的第k个最大节点](https://leetcode-cn.com/problems/er-cha-sou-suo-shu-de-di-kda-jie-dian-lcof/submissions/)
+
++ [数组中重复的数字](https://leetcode-cn.com/problems/shu-zu-zhong-zhong-fu-de-shu-zi-lcof/)
+
+
+
+[cs-note](https://cyc2018.github.io/CS-Notes/#/README?id=%e2%9c%8f%ef%b8%8f-%e7%ae%97%e6%b3%95)

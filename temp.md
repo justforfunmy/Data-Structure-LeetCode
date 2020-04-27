@@ -56,5 +56,12 @@
 + [数组中重复的数字](https://leetcode-cn.com/problems/shu-zu-zhong-zhong-fu-de-shu-zi-lcof/)
 
 
+#### 0427
+
++ [二进制表示中 1 的个数](https://leetcode-cn.com/problems/er-jin-zhi-zhong-1de-ge-shu-lcof/)
+
++ [和为s的两个数字](https://leetcode-cn.com/problems/he-wei-sde-liang-ge-shu-zi-lcof/)
+
+
 
 [cs-note](https://cyc2018.github.io/CS-Notes/#/README?id=%e2%9c%8f%ef%b8%8f-%e7%ae%97%e6%b3%95)

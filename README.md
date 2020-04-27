@@ -51,3 +51,9 @@
 + [删除排序数组中的重复项](https://github.com/justforfunmy/Data-Structure-LeetCode/blob/master/sort/removeDuplicates.md)
 
 + [排序字符串](https://github.com/justforfunmy/Data-Structure-LeetCode/blob/master/sort/sortString.md)
+
+### 剑指offer
+
++ [和为S的数字](https://github.com/justforfunmy/Data-Structure-LeetCode/blob/master/interview/findnumswithsum.md)
+
++ [二进制种1的个数](https://github.com/justforfunmy/Data-Structure-LeetCode/blob/master/interview/numscount.md)

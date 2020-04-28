@@ -57,3 +57,5 @@
 + [和为S的数字](https://github.com/justforfunmy/Data-Structure-LeetCode/blob/master/interview/findnumswithsum.md)
 
 + [二进制种1的个数](https://github.com/justforfunmy/Data-Structure-LeetCode/blob/master/interview/numscount.md)
+
++ [两个链表的第一个公共节点](https://github.com/justforfunmy/Data-Structure-LeetCode/blob/master/interview/getIntersectionNode.md)

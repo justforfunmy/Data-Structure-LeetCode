@@ -62,6 +62,10 @@
 
 + [和为s的两个数字](https://leetcode-cn.com/problems/he-wei-sde-liang-ge-shu-zi-lcof/)
 
+#### 0428
+
++ [两个链表的第一个公共节点](https://leetcode-cn.com/problems/liang-ge-lian-biao-de-di-yi-ge-gong-gong-jie-dian-lcof/)
+
 
 
 [cs-note](https://cyc2018.github.io/CS-Notes/#/README?id=%e2%9c%8f%ef%b8%8f-%e7%ae%97%e6%b3%95)

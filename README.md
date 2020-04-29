@@ -57,3 +57,5 @@
 + [和为S的数字](https://github.com/justforfunmy/Data-Structure-LeetCode/blob/master/interview/findnumswithsum.md)
 
 + [二进制种1的个数](https://github.com/justforfunmy/Data-Structure-LeetCode/blob/master/interview/numscount.md)
+
++ [数组中出现次数超过一半的数字](https://github.com/justforfunmy/Data-Structure-LeetCode/blob/master/interview/majorityElement.md)

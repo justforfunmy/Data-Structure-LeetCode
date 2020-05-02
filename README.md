@@ -61,3 +61,7 @@
 + [数组中出现次数超过一半的数字](https://github.com/justforfunmy/Data-Structure-LeetCode/blob/master/interview/majorityElement.md)
 
 + [两个链表的第一个公共节点](https://github.com/justforfunmy/Data-Structure-LeetCode/blob/master/interview/getIntersectionNode.md)
+
++ [二维数组中的查找](https://github.com/justforfunmy/Data-Structure-LeetCode/blob/master/interview/findNumberIn2DArray.md)
+
++ [数组中最小的k个数](https://github.com/justforfunmy/Data-Structure-LeetCode/blob/master/interview/getLeastNumbers.md)

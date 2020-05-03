@@ -65,3 +65,9 @@
 + [二维数组中的查找](https://github.com/justforfunmy/Data-Structure-LeetCode/blob/master/interview/findNumberIn2DArray.md)
 
 + [数组中最小的k个数](https://github.com/justforfunmy/Data-Structure-LeetCode/blob/master/interview/getLeastNumbers.md)
+
++ [构建乘积数组](https://github.com/justforfunmy/Data-Structure-LeetCode/blob/master/interview/construArr.md)
+
+### Daily
+
++ [最大子序和](https://github.com/justforfunmy/Data-Structure-LeetCode/blob/master/daily/maxSubArray.md)

@@ -68,6 +68,10 @@
 
 + [构建乘积数组](https://github.com/justforfunmy/Data-Structure-LeetCode/blob/master/interview/construArr.md)
 
++ [斐波那契数列](https://github.com/justforfunmy/Data-Structure-LeetCode/blob/master/interview/fib.md)
+
++ [青蛙跳台阶](https://github.com/justforfunmy/Data-Structure-LeetCode/blob/master/interview/numWays.md)
+
 ### Daily
 
 + [最大子序和](https://github.com/justforfunmy/Data-Structure-LeetCode/blob/master/daily/maxSubArray.md)
